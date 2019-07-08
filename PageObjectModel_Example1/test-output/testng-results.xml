@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18822" started-at="2019-06-23T16:06:43Z" finished-at="2019-06-23T16:07:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18822" started-at="2019-06-23T16:06:43Z" finished-at="2019-06-23T16:07:01Z">
+      <class name="com.TestCase.VerifyStoreLogin">
+        <test-method status="PASS" signature="VerifyStore()[pri:0, instance:com.TestCase.VerifyStoreLogin@36d4b5c]" name="VerifyStore" duration-ms="18781" started-at="2019-06-23T16:06:43Z" finished-at="2019-06-23T16:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyStore -->
+      </class> <!-- com.TestCase.VerifyStoreLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
