@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11198" started-at="2019-07-07T16:57:13Z" finished-at="2019-07-07T16:57:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11198" started-at="2019-07-07T16:57:13Z" finished-at="2019-07-07T16:57:24Z">
+      <class name="screenShot.FacebookScreenShot">
+        <test-method status="PASS" signature="captureScreenShot()[pri:0, instance:screenShot.FacebookScreenShot@33f88ab]" name="captureScreenShot" duration-ms="11164" started-at="2019-07-07T16:57:13Z" finished-at="2019-07-07T16:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenShot -->
+      </class> <!-- screenShot.FacebookScreenShot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
