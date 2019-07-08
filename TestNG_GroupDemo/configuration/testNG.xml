@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Default suite">
+
+	<test name ="Default test">
+	<groups>
+	<run>
+	<include name = "A"/>
+	<include name = "C"/>
+	<include name = "D"/>
+	
+	</run>
+	
+	
+	</groups>
+	
+		<classes>
+
+				<class name = "TestNG.GroupingDemo1"/>
+				<class name = "TestNG.GroupingDemo2"/>
+
+				
+
+		</classes>
+
+	</test>
+	
+</suite>
