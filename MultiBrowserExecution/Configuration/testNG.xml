@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Default suite" parallel ="tests">
+
+	<test name ="Chrome test">
+	<parameter name ="browserType" value ="chrome"/>
+		<classes>
+			<class name = "TestNG.MultiBrowserParallerTesting" />
+		</classes>
+	</test>
+	
+	<test name ="Firefox test">
+	<parameter name ="browserType" value ="firefox"/>
+		<classes>
+			<class name = "TestNG.MultiBrowserParallerTesting" />
+		</classes>
+	</test>
+	
+</suite>

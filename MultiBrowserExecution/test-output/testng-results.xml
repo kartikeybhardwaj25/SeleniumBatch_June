@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20260" started-at="2019-06-16T17:33:35Z" finished-at="2019-06-16T17:33:56Z">
+    <groups>
+    </groups>
+    <test name="Chrome test" duration-ms="16033" started-at="2019-06-16T17:33:35Z" finished-at="2019-06-16T17:33:51Z">
+      <class name="TestNG.MultiBrowserParallerTesting">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestNG.MultiBrowserParallerTesting@396a51ab]" name="invokeBrowser" duration-ms="15997" started-at="2019-06-16T17:33:35Z" finished-at="2019-06-16T17:33:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- TestNG.MultiBrowserParallerTesting -->
+    </test> <!-- Chrome test -->
+    <test name="Firefox test" duration-ms="20260" started-at="2019-06-16T17:33:35Z" finished-at="2019-06-16T17:33:56Z">
+      <class name="TestNG.MultiBrowserParallerTesting">
+        <test-method status="PASS" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestNG.MultiBrowserParallerTesting@26be92ad]" name="invokeBrowser" duration-ms="20226" started-at="2019-06-16T17:33:35Z" finished-at="2019-06-16T17:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+      </class> <!-- TestNG.MultiBrowserParallerTesting -->
+    </test> <!-- Firefox test -->
+  </suite> <!-- Default suite -->
+</testng-results>
