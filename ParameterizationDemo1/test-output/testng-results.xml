@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11447" started-at="2019-06-16T17:13:11Z" finished-at="2019-06-16T17:13:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11447" started-at="2019-06-16T17:13:11Z" finished-at="2019-06-16T17:13:23Z">
+      <class name="TestNG.Parameterization">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:TestNG.Parameterization@7c16905e]" name="openbrowser" is-config="true" duration-ms="8698" started-at="2019-06-16T17:13:11Z" finished-at="2019-06-16T17:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="Loginfacebook(java.lang.String, java.lang.String)[pri:0, instance:TestNG.Parameterization@7c16905e]" name="Loginfacebook" duration-ms="424" started-at="2019-06-16T17:13:20Z" finished-at="2019-06-16T17:13:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginfacebook -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:TestNG.Parameterization@7c16905e]" name="closeBrowser" is-config="true" duration-ms="2276" started-at="2019-06-16T17:13:21Z" finished-at="2019-06-16T17:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TestNG.Parameterization -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
